@@ -7,10 +7,6 @@ import com.echessa.tasky.models.Migration;
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
-/**
- * Created by echessa on 5/4/17.
- */
-
 public class TaskListApplication extends Application {
     @Override
     public void onCreate() {

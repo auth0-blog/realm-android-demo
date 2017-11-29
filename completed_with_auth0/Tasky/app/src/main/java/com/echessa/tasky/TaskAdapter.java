@@ -12,10 +12,6 @@ import com.echessa.tasky.models.Task;
 import io.realm.OrderedRealmCollection;
 import io.realm.RealmBaseAdapter;
 
-/**
- * Created by echessa on 5/4/17.
- */
-
 public class TaskAdapter extends RealmBaseAdapter<Task> implements ListAdapter {
 
     private TaskListActivity activity;

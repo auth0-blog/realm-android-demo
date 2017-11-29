@@ -3,7 +3,7 @@ apply plugin: 'realm-android'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "com.echessa.tasky"
         minSdkVersion 15
@@ -11,6 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "https"]
     }
     buildTypes {
         release {
@@ -30,5 +31,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile 'io.realm:android-adapters:2.0.0'
-    compile 'com.auth0.android:lock:2.5.0'
+    compile 'com.auth0.android:auth0:1.12.0'
 }

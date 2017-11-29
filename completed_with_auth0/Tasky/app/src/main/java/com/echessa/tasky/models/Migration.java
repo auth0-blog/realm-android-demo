@@ -1,9 +1,5 @@
 package com.echessa.tasky.models;
 
-/**
- * Created by echessa on 5/4/17.
- */
-
 import io.realm.DynamicRealm;
 import io.realm.DynamicRealmObject;
 import io.realm.RealmMigration;

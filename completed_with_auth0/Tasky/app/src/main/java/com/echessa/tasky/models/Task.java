@@ -4,10 +4,6 @@ import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 import io.realm.annotations.Required;
 
-/**
- * Created by echessa on 5/4/17.
- */
-
 public class Task extends RealmObject {
     @Required
     @PrimaryKey
